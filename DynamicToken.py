@@ -49,4 +49,4 @@ with placeholder.container():
     st.caption(f"This token refreshes every 30 seconds. Time until next update: {remaining_time} seconds.")
 
 # 使用前端自动刷新
-st.markdown("<meta http-equiv='refresh' content='10'>", unsafe_allow_html=True)
+st.markdown("<meta http-equiv='refresh' content='20'>", unsafe_allow_html=True)
